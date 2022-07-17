@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio - PlayList a Diario</title>
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap" rel="stylesheet">
+
+    
+
+</head>
+<body>
+    
+    <header>
+        <h1   class="titulo" >playList Delivery 🎧</div></h1> <br>
+        <img class="banner" src="/img/music.jpg " alt="imagen de notas musicales">
+
+    </header>
+
+    <main>
+
+        <h2 class="instrucciones"> A secret algorithm developed by a select group of 1000 specialists in human behavior decides which music is right for you today.  <br> <br> Do not rush. <br> <br>  To find out which Spotify playList matches your day, you must first answer the following 5 questions: </h2>
+
+        <div id="playlist">      
+
+      
+            <iframe style="border-radius:15px" src="https://open.spotify.com/embed/playlist/37i9dQZEVXbMDoHDwVN2tF?utm_source=generator" width="330px" height="400" frameBorder="2" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+            
+    
+        </div>
+
+        <form id="preguntas" action=" ">
+          
+            <!--
+            <fieldset class="preg">
+                <legend class="texto">What is the Sign in your Horoscope?</legend>
+
+                <select name="" id="" class="opcion">                    
+                    <option value="">Acuario</option>
+                    <option value="">Piscis</option>
+                    <option value="">Aries</option> 
+                    <option value="">Tauro</option>
+                    <option value="">Géminis</option>
+                    <option value="">Cáncer</option>
+                    <option value="">Leo</option>
+                    <option value="">Virgo</option>
+                    <option value="">Libra</option>
+                    <option value="">Escorpio</option>
+                    <option value="">Sagitario</option>
+                    <option value="">Capricornio</option>
+                </select>
+            </fieldset>
+            
+
+            <fieldset class="preg" >
+                <legend class="texto">Do you have tattoos on your face?</legend>
+
+                <select name="" id=""  class="opcion">                    
+                    <option value="">SI</option>
+                    <option value="">NO</option>                    
+                </select>
+            </fieldset>
+
+            <fieldset class="preg">
+                <legend class="texto">Have pets?</legend>
+
+                <select name="" id=""  class="opcion">                    
+                    <option value="">SI</option>
+                    <option value="">NO</option>                    
+                </select>
+            </fieldset>
+
+            <fieldset class="preg">
+                <legend class="texto">Are you the middle child?</legend>
+
+                <select name="" id=""  class="opcion">                    
+                    <option value="">SI</option>
+                    <option value="">NO</option>                    
+                </select>
+            </fieldset>
+        
+
+            <fieldset class="preg">
+                <legend class="texto">Did you wake up in a good mood?</legend>
+
+                <select name="" id=""  class="opcion">                    
+                    <option value="">SI</option>
+                    <option value="">NO</option>                    
+                </select>
+            </fieldset>
+            -->
+
+            <fieldset class="preg">
+                <legend class="texto">What hair color are you wearing today?</legend>
+
+                <select name="" id=""  class="opcion">                    
+                    <option value="">Brown</option>
+                    <option value="">Grey</option>  
+                    <option value="">Blonde</option>
+                    <option value="">Red</option> 
+                    <option value="">Black</option>
+                    <option value="">Otro</option>                   
+                </select>
+            </fieldset>
+
+            <fieldset class="preg">
+                <legend class="texto">How many hours did you sleep last night?</legend>
+
+                <select name="" id=""  class="opcion">                    
+                    <option value="">+ 8 hours</option>
+                    <option value="">- 8 hours</option>     
+                    <option value="">- 6 hours</option>
+                    <option value="">- 5 hours</option>                   
+                </select>
+            </fieldset>
+
+            <fieldset class="preg">
+                <legend class="texto">Do you have money saved?</legend>
+
+                <select name="" id=""  class="opcion">                    
+                    <option value="">+ 1.000 U$s </option>
+                    <option value="">+ 10.000 U$s </option>    
+                    <option value="">+ 50.000 U$s </option>
+                    <option value="">No money saved </option>                 
+                </select>
+            </fieldset>
+
+            <fieldset class="preg">
+                <legend class="texto">Did you dream last night?</legend>
+
+                <select name="" id=""  class="opcion">                    
+                    <option value="">YES </option>
+                    <option value="">NO</option>    
+                                  
+                </select>
+            </fieldset>
+
+            <fieldset class="preg">
+                <legend class="texto">Have you had breakfast yet?</legend>
+
+                <select name="" id=""  class="opcion">                    
+                    <option value="">YES </option>
+                    <option value="">NO</option>    
+                                  
+                </select>
+            </fieldset>
+            
+           
+        </form>
+        <button id="mostrar" onclick="mostrar();">discover Playlist  </button>
+
+         <button id="back" onclick="mostrar();"> <a href="index.html"> back</a> </button>
+    </main>
+
+    
+
+  
+    
+        <footer>
+            <p><a href="http://github.com/Pedro410Ar"> <img src="https://img.icons8.com/ios-filled/50/000000/github.png"/> GitHub </a> &nbsp; <a href="http://www.linkedin.com/in/pedro-adolfo-arruvito/"> <img src="https://img.icons8.com/ios/50/000000/linkedin.png"/> LinkedIn</a></p>
+            <p class="desarrollo">Powered by Pedro Arruvito &#128640</p>
+            <p class="copyright" >&copy Copyright - 2022 </p>
+    
+        </footer>
+
+       <script src="myscript.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,230 @@
+/*
+body{
+    font-family: 'Edu SA Beginner', cursive;  
+    background: linear-gradient(298.63deg, rgba(94, 137, 159, 0.53) 43.16%, rgba(249, 175, 114, 0.4) 92.58%, rgba(53, 190, 218, 0.53));
+}
+
+
+.titulo{
+    text-shadow: 3px 3px 1px rgb(35, 169, 120);
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.banner{
+    width: 98%;
+    height: 500px;
+
+
+    border-radius: 40px;
+
+    border-width: 10px;
+    border-color: rgb(241, 241, 21);
+    border-style: solid;
+
+
+    box-shadow: 10px 10px 10px 10px rgb(252, 252, 63);
+}
+
+.instrucciones{
+    margin-top: 50px;
+    margin-left: 15px;
+    text-shadow: 3px 3px 1px rgb(35, 169, 120);
+}
+
+.preguntas{
+    margin-top: 50px;
+    
+    
+}
+
+.preg{
+    box-shadow: 5px 18px 5px 2px rgb(252, 252, 63);
+    margin-top: 30px;
+
+    border-radius: 30px;
+}
+
+.texto{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.opcion{
+    width: 150px;
+    height: 35px;
+
+    border-radius: 30px;
+    margin-left: 80px;
+
+    text-shadow: 1px 0px 1px rgb(3, 8, 6);
+    font-size: 16px;
+
+    background-color: rgb(255, 254, 182);
+    
+}
+
+.enviar{
+    width: 180px;
+    height: 50px;
+
+    margin-top: 80px;
+
+    text-shadow: 1px 0px 1px rgb(3, 8, 6);
+    font-size: 16px;
+
+    border-radius: 30px;
+    margin-left: 80px;
+
+    
+    background-color: rgb(35, 169, 120);
+}
+
+.playlist{
+    margin-top: 80px;
+
+}
+
+
+footer{
+    height: 100px;
+    text-align: center;
+    padding: 10px;  
+
+    margin-top: 50px;
+    
+               
+}
+*/ 
+
+/* ------------------RESPONSIVE---------------*/
+
+@media(max-width: 378px) {
+
+    body{
+        
+        background: linear-gradient(298.63deg, rgba(94, 137, 159, 0.53) 43.16%, rgba(249, 175, 114, 0.4) 92.58%, rgba(53, 190, 218, 0.53));
+        font-family: 'Edu SA Beginner', cursive;  
+    }
+
+    main{
+        height: 1200px;
+    }
+
+    .titulo{
+        text-shadow: 3px 3px 1px rgb(35, 169, 120);
+        font-size: 35px;
+        margin-left: 15px;
+    }
+
+    .banner{
+        width: 300px;
+        height: 200px;
+
+        margin-left: 5px;
+
+        border-radius: 40px;
+
+        border-width: 10px;
+        border-color: rgb(241, 241, 21);
+        border-style: solid;
+
+        box-shadow: 5px 5px 5px 5px rgb(252, 252, 63);
+    }
+
+    .instrucciones{
+        width: 280px;
+        margin-top: 50px;
+        margin-left: 15px;
+        text-shadow: 3px 3px 1px rgb(35, 169, 120);
+    }
+
+    #preguntas{
+        margin-top: 50px;
+        
+    }
+
+    .preg{
+        box-shadow: 5px 18px 5px 2px rgb(252, 252, 63);
+        margin-top: 30px;
+
+        border-radius: 20px;
+    }
+
+    .texto{
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .opcion{
+        width: 150px;
+        height: 35px;
+
+        border-radius: 30px;
+        margin-left: 80px;
+
+        text-shadow: 1px 0px 1px rgb(3, 8, 6);
+        font-size: 16px;
+
+        background-color: rgb(255, 254, 182);
+        
+    }
+
+    #mostrar{
+        width: 180px;
+        height: 50px;
+
+        margin-top: 80px;
+
+        text-shadow: 1px 0px 1px rgb(3, 8, 6);
+        font-size: 16px;
+
+        border-radius: 30px;
+        margin-left: 80px;
+        
+        background-color: rgb(35, 169, 120);
+    }
+
+   
+    #back{
+        width: 180px;
+        height: 50px;
+
+        margin-top: 80px;
+
+        text-shadow: 1px 0px 1px rgb(3, 8, 6);
+        font-size: 16px;
+
+        border-radius: 30px;
+        margin-left: 80px;
+        
+        background-color: rgb(35, 169, 120);
+
+        display: none;
+      
+    }
+
+    #back a{
+        text-decoration: none;
+        text-shadow: 1px 0px 1px rgb(3, 8, 6);
+        color: black;
+    }
+
+
+    #playlist{
+        display: none;
+        text-align: center;
+        margin-top: 80px;
+
+    }
+
+    footer{
+        height: 100px;
+        text-align: center;
+        padding: 5px;  
+
+        margin-top: 50px;
+                   
+    }
+
+}
