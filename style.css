@@ -1,101 +1,101 @@
-/*
 body{
     font-family: 'Edu SA Beginner', cursive;  
     background: linear-gradient(298.63deg, rgba(94, 137, 159, 0.53) 43.16%, rgba(249, 175, 114, 0.4) 92.58%, rgba(53, 190, 218, 0.53));
 }
 
+ main{
+        height: 1900px;
+    }
 
 .titulo{
-    text-shadow: 3px 3px 1px rgb(35, 169, 120);
-    font-size: 40px;
-    margin-left: 10px;
-}
+        text-shadow: 3px 3px 1px rgb(35, 169, 120);
+        font-size: 40px;
+        margin-left: 10px;
+    }
 
-.banner{
-    width: 98%;
-    height: 500px;
-
-
-    border-radius: 40px;
-
-    border-width: 10px;
-    border-color: rgb(241, 241, 21);
-    border-style: solid;
+  .banner{
+        width: 98%;
+        height: 500px;
 
 
-    box-shadow: 10px 10px 10px 10px rgb(252, 252, 63);
-}
+        border-radius: 40px;
+
+        border-width: 10px;
+        border-color: rgb(241, 241, 21);
+        border-style: solid;
+
+
+        box-shadow: 10px 10px 10px 10px rgb(252, 252, 63);
+    }
 
 .instrucciones{
-    margin-top: 50px;
-    margin-left: 15px;
-    text-shadow: 3px 3px 1px rgb(35, 169, 120);
-}
+        margin-top: 50px;
+        margin-left: 15px;
+        text-shadow: 3px 3px 1px rgb(35, 169, 120);
+    }
 
 .preguntas{
-    margin-top: 50px;
-    
-    
-}
+        margin-top: 50px;
+        
+        
+    }
 
-.preg{
-    box-shadow: 5px 18px 5px 2px rgb(252, 252, 63);
-    margin-top: 30px;
+    .preg{
+        box-shadow: 5px 18px 5px 2px rgb(252, 252, 63);
+        margin-top: 30px;
 
-    border-radius: 30px;
-}
+        border-radius: 30px;
+    }
 
-.texto{
-    padding: 15px;
-    font-size: 20px;
-}
+    .texto{
+        padding: 15px;
+        font-size: 20px;
+    }
 
-.opcion{
-    width: 150px;
-    height: 35px;
+    .opcion{
+        width: 150px;
+        height: 35px;
 
-    border-radius: 30px;
-    margin-left: 80px;
+        border-radius: 30px;
+        margin-left: 80px;
 
-    text-shadow: 1px 0px 1px rgb(3, 8, 6);
-    font-size: 16px;
+        text-shadow: 1px 0px 1px rgb(3, 8, 6);
+        font-size: 16px;
 
-    background-color: rgb(255, 254, 182);
-    
-}
+        background-color: rgb(255, 254, 182);
+        
+    }
 
-.enviar{
-    width: 180px;
-    height: 50px;
+    .enviar{
+        width: 180px;
+        height: 50px;
 
-    margin-top: 80px;
+        margin-top: 80px;
 
-    text-shadow: 1px 0px 1px rgb(3, 8, 6);
-    font-size: 16px;
+        text-shadow: 1px 0px 1px rgb(3, 8, 6);
+        font-size: 16px;
 
-    border-radius: 30px;
-    margin-left: 80px;
+        border-radius: 30px;
+        margin-left: 80px;
 
-    
-    background-color: rgb(35, 169, 120);
-}
+        
+        background-color: rgb(35, 169, 120);
+    }
 
-.playlist{
-    margin-top: 80px;
+    .playlist{
+        margin-top: 80px;
 
-}
+    }
 
 
 footer{
-    height: 100px;
-    text-align: center;
-    padding: 10px;  
+        height: 100px;
+        text-align: center;
+        padding: 10px;  
 
-    margin-top: 50px;
-    
-               
-}
-*/ 
+        margin-top: 50px;        
+                   
+    }
 
 /* ------------------RESPONSIVE---------------*/
 
